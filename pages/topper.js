@@ -2,7 +2,7 @@ import { Container, Heading, Button, Input, HStack, Text, Link } from "@chakra-u
 import { useState } from "react"
 import axios from "axios"
 
-export default function topper() {
+export default function Topper() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [formError, setFormError] = useState('')
   const [foundUrls, setFoundUrls] = useState([])
