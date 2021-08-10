@@ -63,8 +63,8 @@ export default function Topper() {
         }
 
         {
-          foundUrls.map(url => (
-            <Text mb="2">
+          foundUrls.map((url, index) => (
+            <Text key={index} mb="2">
               <Link href={url} isExternal color="blue.500">{url.split('/')[url.split('/').length - 1]}</Link>
             </Text>
           ))
