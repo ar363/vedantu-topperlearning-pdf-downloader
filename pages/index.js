@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title>Vedantu/Topperlearning PDF Downloader</title>
-        <meta name="description" content="Download Vedantu/Topperlearning resources without having to signup fot them" />
+        <meta name="description" content="Download Vedantu/Topperlearning resources without having to signup for them" />
       </Head>
 
       <Container maxW="container.sm">
