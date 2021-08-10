@@ -14,7 +14,6 @@ export default async function handler(req, res) {
 
   try {
     const { data } = await axios.get(url)
-    // console.log(data)
     const $ = cheerio.load(data)
     let urls = []
     
